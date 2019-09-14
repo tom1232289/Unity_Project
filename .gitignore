@@ -328,3 +328,7 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/BreakTheBricks/Library
+/BreakTheBricks/Temp
+/Roll A Ball/Library
+/Roll A Ball/Temp
