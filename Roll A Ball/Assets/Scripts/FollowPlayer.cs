@@ -8,12 +8,12 @@ public class FollowPlayer : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        offset = transform.position - playerTransform.position;
+        offset = transform.localPosition - playerTransform.localPosition;
     }
 
     // Update is called once per frame
     private void Update()
     {
-        transform.position = playerTransform.position + offset;
+        transform.localPosition = playerTransform.localPosition + offset;
     }
 }
